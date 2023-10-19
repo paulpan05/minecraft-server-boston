@@ -7,18 +7,22 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2023-09-25 01:38:14 +0000",
+      "minecraft:beach": "2023-09-23 14:44:50 +0000",
       "minecraft:old_growth_pine_taiga": "2023-09-01 04:50:18 +0000",
+      "minecraft:forest": "2023-09-01 03:46:25 +0000",
       "minecraft:taiga": "2023-09-01 03:29:05 +0000",
-      "minecraft:frozen_river": "2023-09-03 02:40:25 +0000",
-      "minecraft:windswept_hills": "2023-09-03 02:50:03 +0000",
       "minecraft:river": "2023-09-01 03:49:00 +0000",
       "minecraft:snowy_plains": "2023-09-01 04:44:05 +0000",
       "minecraft:dripstone_caves": "2023-09-01 05:52:39 +0000",
       "minecraft:snowy_taiga": "2023-09-01 05:00:21 +0000",
-      "minecraft:forest": "2023-09-01 03:46:25 +0000",
       "minecraft:frozen_ocean": "2023-09-03 02:50:55 +0000",
+      "minecraft:frozen_river": "2023-09-03 02:40:25 +0000",
+      "minecraft:swamp": "2023-09-23 14:44:01 +0000",
+      "minecraft:windswept_hills": "2023-09-03 02:50:03 +0000",
       "minecraft:old_growth_spruce_taiga": "2023-09-01 04:48:11 +0000",
-      "minecraft:snowy_beach": "2023-09-03 02:50:40 +0000"
+      "minecraft:snowy_beach": "2023-09-03 02:50:40 +0000",
+      "minecraft:plains": "2023-09-23 14:43:50 +0000"
     },
     "done": false
   },
@@ -336,13 +340,13 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "cooked_mutton": "2023-09-01 03:45:04 +0000",
-      "sweet_berries": "2023-09-01 03:40:55 +0000",
-      "cooked_beef": "2023-09-01 03:50:47 +0000",
-      "baked_potato": "2023-09-01 05:13:42 +0000",
       "bread": "2023-09-01 04:46:19 +0000",
       "rotten_flesh": "2023-09-03 13:38:43 +0000",
+      "cooked_mutton": "2023-09-01 03:45:04 +0000",
+      "sweet_berries": "2023-09-01 03:40:55 +0000",
       "salmon": "2023-09-01 03:57:15 +0000",
+      "cooked_beef": "2023-09-01 03:50:47 +0000",
+      "baked_potato": "2023-09-01 05:13:42 +0000",
       "cooked_salmon": "2023-09-02 04:02:49 +0000"
     },
     "done": false
@@ -409,16 +413,19 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2023-09-23 14:30:40 +0000",
       "minecraft:skeleton": "2023-09-01 03:49:29 +0000",
       "minecraft:hoglin": "2023-09-10 17:01:41 +0000",
+      "minecraft:piglin": "2023-09-03 01:34:48 +0000",
+      "minecraft:vindicator": "2023-09-23 14:34:17 +0000",
+      "minecraft:enderman": "2023-09-25 05:20:43 +0000",
       "minecraft:magma_cube": "2023-09-03 01:20:43 +0000",
       "minecraft:spider": "2023-09-01 04:25:31 +0000",
-      "minecraft:creeper": "2023-09-01 03:51:48 +0000",
-      "minecraft:slime": "2023-09-03 03:30:54 +0000",
-      "minecraft:piglin": "2023-09-03 01:34:48 +0000",
       "minecraft:zombie": "2023-09-01 03:45:58 +0000",
+      "minecraft:creeper": "2023-09-01 03:51:48 +0000",
       "minecraft:drowned": "2023-09-01 03:52:01 +0000",
-      "minecraft:zombie_villager": "2023-09-03 02:30:43 +0000"
+      "minecraft:zombie_villager": "2023-09-03 02:30:43 +0000",
+      "minecraft:slime": "2023-09-03 03:30:54 +0000"
     },
     "done": false
   },
@@ -1943,5 +1950,377 @@
     },
     "done": true
   },
-  "DataVersion": 3465
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2023-09-12 04:42:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2023-09-12 04:42:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_button": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_slab": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_stairs": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_fence": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_door": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crimson_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:10:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2023-09-16 16:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2023-09-23 14:30:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2023-09-25 00:08:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2023-09-25 00:08:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2023-09-25 00:08:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brown_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/orange_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cyan_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/pink_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/black_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purple_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/yellow_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lime_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glass_pane": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magenta_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_stained_glass": {
+    "criteria": {
+      "has_glass": "2023-09-25 04:58:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2023-09-25 19:03:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_nuggets": {
+    "criteria": {
+      "has_iron_nugget": "2023-09-26 01:48:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_core": "2023-09-26 01:53:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2023-09-26 02:32:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2023-09-27 03:45:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2023-09-27 03:49:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2023-10-11 03:09:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2023-10-15 20:29:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2023-10-15 20:29:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2023-10-15 20:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-10-15 20:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2023-10-15 20:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2023-10-15 20:36:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2023-10-16 01:49:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2023-10-16 01:57:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2023-10-16 01:57:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2023-10-16 01:57:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/melon_seeds": {
+    "criteria": {
+      "has_melon": "2023-10-16 02:02:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/glistering_melon_slice": {
+    "criteria": {
+      "has_melon": "2023-10-16 02:02:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/melon": {
+    "criteria": {
+      "has_melon": "2023-10-16 02:02:18 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3578
 }
