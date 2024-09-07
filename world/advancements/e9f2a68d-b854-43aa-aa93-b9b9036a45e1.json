@@ -347,6 +347,7 @@
       "salmon": "2023-09-01 03:57:15 +0000",
       "cooked_beef": "2023-09-01 03:50:47 +0000",
       "baked_potato": "2023-09-01 05:13:42 +0000",
+      "beef": "2023-10-29 00:32:29 +0000",
       "cooked_salmon": "2023-09-02 04:02:49 +0000"
     },
     "done": false
@@ -2323,5 +2324,23 @@
     },
     "done": true
   },
-  "DataVersion": 3578
+  "minecraft:recipes/building_blocks/muddy_mangrove_roots": {
+    "criteria": {
+      "has_mangrove_roots": "2023-10-22 00:49:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-11-22 04:14:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-11-22 04:14:00 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3953
 }

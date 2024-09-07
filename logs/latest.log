@@ -1,34 +1,19 @@
-[19:32:46] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:32:48] [ServerMain/INFO]: Loaded 7 recipes
-[19:32:48] [ServerMain/INFO]: Loaded 1271 advancements
-[19:32:48] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[19:32:48] [Server thread/INFO]: Loading properties
-[19:32:48] [Server thread/INFO]: Default game type: SURVIVAL
-[19:32:48] [Server thread/INFO]: Generating keypair
-[19:32:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:32:48] [Server thread/INFO]: Using epoll channel type
-[19:32:48] [Server thread/INFO]: Preparing level "world"
-[19:32:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:32:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:32:55] [Worker-Main-2/INFO]: Preparing spawn area: 40%
-[19:32:56] [Server thread/INFO]: Time elapsed: 4905 ms
-[19:32:56] [Server thread/INFO]: Done (7.429s)! For help, type "help"
-[19:42:10] [User Authenticator #1/INFO]: UUID of player niemands is 56e9c550-574c-4ca6-83b9-a1a257f72d7f
-[19:42:11] [Server thread/INFO]: niemands[/72.105.19.38:55256] logged in with entity id 208 at (726.5518840386783, 33.0, -718.4857822362889)
-[19:42:11] [Server thread/INFO]: niemands joined the game
-[19:42:51] [Server thread/INFO]: niemands lost connection: Disconnected
-[19:42:51] [Server thread/INFO]: niemands left the game
-[19:53:24] [User Authenticator #2/INFO]: UUID of player niemands is 56e9c550-574c-4ca6-83b9-a1a257f72d7f
-[19:53:24] [Server thread/INFO]: niemands[/72.105.19.38:56194] logged in with entity id 469 at (717.3851236814519, 42.9375, -724.160933088473)
-[19:53:24] [Server thread/INFO]: niemands joined the game
-[21:34:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
-[23:30:17] [Server thread/INFO]: niemands lost connection: Disconnected
-[23:30:17] [Server thread/INFO]: niemands left the game
+[20:59:07] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:59:08] [ServerMain/INFO]: Loaded 1290 recipes
+[20:59:08] [ServerMain/INFO]: Loaded 1399 advancements
+[20:59:09] [Server thread/INFO]: Starting minecraft server version 1.21
+[20:59:09] [Server thread/INFO]: Loading properties
+[20:59:09] [Server thread/INFO]: Default game type: SURVIVAL
+[20:59:09] [Server thread/INFO]: Generating keypair
+[20:59:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:59:09] [Server thread/INFO]: Using epoll channel type
+[20:59:09] [Server thread/INFO]: Preparing level "world"
+[20:59:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:59:12] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[20:59:12] [Server thread/INFO]: Time elapsed: 427 ms
+[20:59:12] [Server thread/INFO]: Done (2.827s)! For help, type "help"
+[20:59:26] [User Authenticator #1/INFO]: UUID of player niemands is 56e9c550-574c-4ca6-83b9-a1a257f72d7f
+[20:59:26] [Server thread/INFO]: niemands[/96.232.232.72:51967] logged in with entity id 99 at (715.5189372548555, 62.9375, -721.3505826012943)
+[20:59:26] [Server thread/INFO]: niemands joined the game
+[21:00:56] [Server thread/INFO]: niemands lost connection: Disconnected
+[21:00:56] [Server thread/INFO]: niemands left the game
